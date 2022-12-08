@@ -29,7 +29,7 @@ O layout da aplicação:
 
 <p align="center">
   <a href="https://user-images.githubusercontent.com/93795922/206334464-aa36f0a8-d91d-495e-8c60-0340b89d89b0.png">
-    <img alt="Badge em Desenvolvimento" src="https://user-images.githubusercontent.com/93795922/206334464-aa36f0a8-d91d-495e-8c60-0340b89d89b0.png">
+    <img alt="Thumbnail do Site" src="https://user-images.githubusercontent.com/93795922/206334464-aa36f0a8-d91d-495e-8c60-0340b89d89b0.png">
   </a>
 				      
 
