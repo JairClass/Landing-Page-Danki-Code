@@ -10,7 +10,7 @@ html,body{
 }
 
 @font-face{
-	src:url('../fonts/OpenSans-Light.ttf');
+	src: url('../fonts/OpenSans-Light.ttf');
 	font-family: "Open Sans";
 }
 
@@ -26,7 +26,7 @@ html,body{
 
 .header{
 	width: 100%;
-	padding:0 2%;
+	padding: 0 2%;
 	height: 60px;
 	background-color: #212343;
 }
@@ -37,9 +37,9 @@ html,body{
 
 .container-banner{
 	width: 100%;
-	padding:0 2%;
+	padding: 0 2%;
 	height: 557px;
-	background-image:url('../images/header_bg.png');
+	background-image: url('../images/header_bg.png');
 	background-size: cover;
 	background-position: center;
 }
@@ -59,7 +59,7 @@ html,body{
 	border-color: rgba(120,120,120,0.5);
 	border-style: solid;
 	background-color: white;
-	background-clip:padding-box;
+	background-clip: padding-box;
 	/*background-origin tem o mesmo conceito porém serve para imagens.*/
 }
 
@@ -70,7 +70,7 @@ html,body{
 }
 
 .input-container{
-	margin-top:20px;
+	margin-top: 20px;
 }
 
 .input-container span{
@@ -85,15 +85,15 @@ html,body{
 	width: 100%;
 	color: #BBBBBB;
 	font-size: 17px;
-	margin:20px 0;
+	margin: 20px 0;
 }
 
 .input-container input[type=text]{
-	margin-top:8px;
+	margin-top: 8px;
 	width: 344px;
 	height: 55px;
 	padding: 8px 10px 8px 10px;
-	border:1px solid #ccc;
+	border: 1px solid #ccc;
 }
 
 .input-container input[type=text]:focus{
@@ -111,7 +111,7 @@ html,body{
 	height: 56px;
 	display: inline-block;
 	background-color: #363A6D;
-	border-top:0;
+	border-top: 0;
 	border-right: 0;
 	border-left: 0;
 	cursor: pointer;
@@ -123,8 +123,8 @@ html,body{
 }
 
 .container-list{
-	padding:30px;
-	margin-top:100px;
+	padding: 30px;
+	margin-top: 100px;
 	float: left;
 	width: 519px;
 	height: 270px;
@@ -136,13 +136,13 @@ html,body{
 }
 
 .container-list ul li{
-	margin-top:18px;
+	margin-top: 18px;
 	color: white;
 }
 
 
 .container-2{
-	padding:40px 2%;
+	padding: 40px 2%;
 	background-color: #ddd;
 	text-align: center;
 }
@@ -155,15 +155,15 @@ html,body{
 .container-2 p{
 	width: 100%;
 	max-width: 768px;
-	margin:15px 0;
+	margin: 15px 0;
 	display: inline-block;
 	text-align: justify;
 }
 
 .arrow{
 	position: relative;
-	top:60px;
-	left:50%;
+	top: 60px;
+	left: 50%;
 	margin-left: -20px;
 	width: 40px;
 	height: 40px;
@@ -172,7 +172,7 @@ html,body{
 }
 
 .section-1{
-	padding:90px 2%;
+	padding: 90px 2%;
 }
 
 .section-1 h2{
@@ -182,53 +182,53 @@ html,body{
 }
 
 .container-section{
-	margin-top:40px;
+	margin-top: 40px;
 	text-align: center;
 }
 
 .container-single{
 	float: left;
 	width: 33.3333%;
-	padding:30px;
+	padding: 30px;
 }
 
 
 .container-single p{
 	display: inline-block;
 	text-align: justify;
-	padding:10px;
+	padding: 10px;
 }
 
 .container-single img{
-	width:70px;
+	width: 70px;
 }
 
 .footer{
 	/*clear:both;*/
-	border-top:2px solid #888888;
-	padding:20px 0;
+	border-top: 2px solid #888888;
+	padding: 20px 0;
 	text-align: center;
 	color: #888;
 }
 
 .footer p{
-	margin-top:8px;
+	margin-top: 8px;
 }
 
 @media screen and (max-width: 1024px){
 	.header{
 		height: auto;
 		width: 100%;
-		padding:15px 0;
+		padding: 15px 0;
 		text-align: center;
 	}
 
 	.header img{
-		margin:0;
+		margin: 0;
 	}
 
 	.container-list{
-		padding:30px 0;
+		padding: 30px 0;
 		width: 40%;
 		float: left;
 		display: block;
@@ -238,18 +238,18 @@ html,body{
 
 	.container-banner{
 		width: 100%;
-		padding:40px 2%;
+		padding: 40px 2%;
 		height: auto;
 		text-align: center;
 	}
 
 	.form{
 		max-width: 400px;
-		padding:10px;
+		padding: 10px;
 		width: 60%;
 		height: 100%;
-		float:right;
-		top:0;
+		float: right;
+		top: 0;
 	}
 
 	.input-container input[type=text]{
@@ -289,6 +289,6 @@ html,body{
 		display: inline-block;
 		width: 100%;
 		max-width: 600px;
-		padding:30px 0;
+		padding: 30px 0;
 	}
 }
